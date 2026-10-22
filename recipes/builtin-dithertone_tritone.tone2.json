@@ -1,0 +1,24 @@
+{
+ "app": "tone/2",
+ "name": "Dithertone Pro 3-Color Tritone",
+ "description": "Maps Shadows, Midtones & Highlights to custom spot colors",
+ "kind": "built-in",
+ "settings": {
+  "engineMode": "dither_tonal",
+  "ditherAlgo": "jjn",
+  "pixelScale": 2,
+  "ditherStrength": 0.9,
+  "tonalCount": 3,
+  "toneShadow": "#120d31",
+  "toneMid": "#ff2a85",
+  "toneHigh": "#ffe66d",
+  "paperColor": "#fffdf7",
+  "underprintOpacity": 0,
+  "comicOutline": false,
+  "inkMelt": false,
+  "posterize": 0,
+  "sharpen": 0.6,
+  "paperGrain": 0.1,
+  "inkWear": 0
+ }
+}

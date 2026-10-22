@@ -1,0 +1,66 @@
+{
+ "app": "tone/2",
+ "name": "Dither Boy Sine Wave Modulation",
+ "description": "Continuous phase-modulated CMYK carrier scanlines",
+ "kind": "built-in",
+ "settings": {
+  "engineMode": "modulation",
+  "dotSize": 8,
+  "softness": 1.15,
+  "edgeHardness": 0.9,
+  "edgeRoughness": 0.15,
+  "gcr": 0.75,
+  "misregSpread": 1,
+  "inkOpacity": 0.92,
+  "blendMode": "multiply",
+  "paperColor": "#faf7f0",
+  "underprintOpacity": 0,
+  "tonalMask": 0,
+  "comicOutline": false,
+  "inkMelt": false,
+  "posterize": 0,
+  "sharpen": 0.4,
+  "channels": [
+   {
+    "id": "c",
+    "name": "Cyan",
+    "active": true,
+    "color": "#00AEEF",
+    "angle": 15,
+    "scale": 1,
+    "dx": 0,
+    "dy": 0
+   },
+   {
+    "id": "m",
+    "name": "Magenta",
+    "active": true,
+    "color": "#EC008C",
+    "angle": 75,
+    "scale": 1,
+    "dx": 0,
+    "dy": 0
+   },
+   {
+    "id": "y",
+    "name": "Yellow",
+    "active": true,
+    "color": "#FFF200",
+    "angle": 0,
+    "scale": 1,
+    "dx": 0,
+    "dy": 0
+   },
+   {
+    "id": "k",
+    "name": "Key (Black)",
+    "active": true,
+    "color": "#141413",
+    "angle": 45,
+    "scale": 1,
+    "dx": 0,
+    "dy": 0
+   }
+  ]
+ }
+}
