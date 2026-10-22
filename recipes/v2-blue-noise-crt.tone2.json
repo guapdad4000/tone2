@@ -1,0 +1,21 @@
+{
+ "app": "tone/2",
+ "name": "Blue noise CRT",
+ "description": "True void-and-cluster blue noise, Game Boy-ish palette",
+ "kind": "example",
+ "settings": {
+  "engineMode": "dither_tonal",
+  "tonalCount": 1,
+  "toneShadow": "#281729",
+  "paperColor": "#e1fee0",
+  "pixelScale": 3,
+  "ditherStrength": 1.0,
+  "sharpen": 0.2,
+  "ditherAlgo": "bluenoise_vc",
+  "v2AutoLevels": 1,
+  "v2Clahe": 0.45,
+  "v2ShadowLift": 0.35,
+  "v2Clarity": 0.25,
+  "v2EdgeSharpen": 0.4
+ }
+}

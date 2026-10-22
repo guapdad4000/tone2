@@ -1,0 +1,74 @@
+{
+ "app": "tone/2",
+ "name": "Risograph Soy Ink Pop",
+ "description": "Fluoro Pink + Federal Blue + Sunflower Mezzotint grain",
+ "kind": "built-in",
+ "settings": {
+  "engineMode": "halftone_rip",
+  "ripSpot": "mezzotint",
+  "dotSize": 7,
+  "softness": 1.15,
+  "minRadius": 0.03,
+  "maxRadiusScale": 1.35,
+  "edgeHardness": 0.78,
+  "edgeRoughness": 0.35,
+  "shape": "circle",
+  "jitter": 0.15,
+  "noise": 0.2,
+  "gcr": 0.35,
+  "misregSpread": 2.5,
+  "inkOpacity": 0.88,
+  "blendMode": "multiply",
+  "paperColor": "#f7f3eb",
+  "underprintOpacity": 0,
+  "tonalMask": 0,
+  "comicOutline": false,
+  "inkMelt": false,
+  "posterize": 0,
+  "sharpen": 0.3,
+  "paperGrain": 0.28,
+  "inkWear": 0.18,
+  "channels": [
+   {
+    "id": "c",
+    "name": "Federal Blue",
+    "active": true,
+    "color": "#0078BF",
+    "angle": 15,
+    "scale": 1.05,
+    "dx": -2,
+    "dy": 1
+   },
+   {
+    "id": "m",
+    "name": "Fluoro Pink",
+    "active": true,
+    "color": "#FF48B0",
+    "angle": 75,
+    "scale": 1.05,
+    "dx": 2,
+    "dy": -1.5
+   },
+   {
+    "id": "y",
+    "name": "Sunflower",
+    "active": true,
+    "color": "#FFE800",
+    "angle": 0,
+    "scale": 0.9,
+    "dx": 1,
+    "dy": 2
+   },
+   {
+    "id": "k",
+    "name": "Riso Black",
+    "active": false,
+    "color": "#1E1E1E",
+    "angle": 45,
+    "scale": 0.8,
+    "dx": 0,
+    "dy": 0
+   }
+  ]
+ }
+}

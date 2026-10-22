@@ -1,0 +1,24 @@
+{
+ "app": "tone/2",
+ "name": "AM screen 45",
+ "description": "Photoshop Bitmap Halftone Screen, tone-calibrated",
+ "kind": "example",
+ "settings": {
+  "engineMode": "dither_tonal",
+  "tonalCount": 1,
+  "toneShadow": "#111111",
+  "paperColor": "#f2ede0",
+  "pixelScale": 1,
+  "ditherStrength": 1.0,
+  "sharpen": 0.2,
+  "ditherAlgo": "amscreen",
+  "ditherAngle": 45,
+  "ditherCell": 6,
+  "v2AutoLevels": 1,
+  "v2Clahe": 0.45,
+  "v2ShadowLift": 0.35,
+  "v2Clarity": 0.1,
+  "v2EdgeSharpen": 0.4,
+  "dotGain": -0.08
+ }
+}

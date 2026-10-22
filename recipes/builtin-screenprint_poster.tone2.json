@@ -1,0 +1,79 @@
+{
+ "app": "tone/2",
+ "name": "Silkscreen Gig Poster",
+ "description": "Moir\u00e9-free mesh angles + heavy bleed + plate shift",
+ "kind": "built-in",
+ "settings": {
+  "engineMode": "halftone_rip",
+  "ripSpot": "ellipse",
+  "dotSize": 11,
+  "softness": 1.2,
+  "minRadius": 0.08,
+  "maxRadiusScale": 1.45,
+  "edgeHardness": 0.95,
+  "edgeRoughness": 0.35,
+  "shape": "circle",
+  "jitter": 0.08,
+  "noise": 0.12,
+  "gcr": 0.8,
+  "misregSpread": 2,
+  "inkOpacity": 0.94,
+  "blendMode": "multiply",
+  "paperColor": "#efe6d5",
+  "underprintOpacity": 0.2,
+  "tonalMask": 0.1,
+  "comicOutline": true,
+  "comicInkStyle": "contour",
+  "comicOutlineColor": "#111111",
+  "comicEdgeThreshold": 28,
+  "comicEdgeWeight": 2,
+  "comicEdgeOpacity": 0.95,
+  "inkMelt": false,
+  "posterize": 4,
+  "sharpen": 0.5,
+  "paperGrain": 0.25,
+  "inkWear": 0.2,
+  "channels": [
+   {
+    "id": "c",
+    "name": "Teal Ink",
+    "active": true,
+    "color": "#008094",
+    "angle": 22.5,
+    "scale": 1,
+    "dx": -2,
+    "dy": 1
+   },
+   {
+    "id": "m",
+    "name": "Poster Red",
+    "active": true,
+    "color": "#D92B2B",
+    "angle": 52.5,
+    "scale": 1.05,
+    "dx": 2,
+    "dy": -1
+   },
+   {
+    "id": "y",
+    "name": "Mustard",
+    "active": true,
+    "color": "#F2B705",
+    "angle": 7.5,
+    "scale": 1,
+    "dx": 0,
+    "dy": 2
+   },
+   {
+    "id": "k",
+    "name": "Heavy Black",
+    "active": true,
+    "color": "#141414",
+    "angle": 82.5,
+    "scale": 1.15,
+    "dx": 0,
+    "dy": 0
+   }
+  ]
+ }
+}
