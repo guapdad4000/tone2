@@ -1,0 +1,19 @@
+{
+ "app": "tone/2",
+ "name": "PS Save-for-Web 85% Indexed",
+ "description": "Photoshop Legacy GIF/WBMP diffusion dither at 85% bleed",
+ "kind": "built-in",
+ "settings": {
+  "engineMode": "dither_indexed",
+  "ditherAlgo": "floyd",
+  "pixelScale": 2,
+  "ditherStrength": 0.85,
+  "posterize": 4,
+  "sharpen": 0.5,
+  "underprintOpacity": 0,
+  "comicOutline": false,
+  "inkMelt": false,
+  "paperGrain": 0,
+  "inkWear": 0
+ }
+}

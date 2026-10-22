@@ -1,0 +1,73 @@
+{
+ "app": "tone/2",
+ "name": "PS Color Halftone (108/162/90/45)",
+ "description": "Classic Photoshop Filter > Pixelate > Color Halftone",
+ "kind": "built-in",
+ "settings": {
+  "engineMode": "halftone",
+  "dotSize": 10,
+  "softness": 1.1,
+  "minRadius": 0.04,
+  "maxRadiusScale": 1.35,
+  "edgeHardness": 0.92,
+  "edgeRoughness": 0.08,
+  "shape": "circle",
+  "jitter": 0.02,
+  "noise": 0.04,
+  "gcr": 0.75,
+  "misregSpread": 0,
+  "inkOpacity": 0.92,
+  "blendMode": "multiply",
+  "paperColor": "#ffffff",
+  "underprintOpacity": 0,
+  "tonalMask": 0,
+  "comicOutline": false,
+  "inkMelt": false,
+  "posterize": 0,
+  "sharpen": 0.2,
+  "paperGrain": 0,
+  "inkWear": 0,
+  "channels": [
+   {
+    "id": "c",
+    "name": "Cyan",
+    "active": true,
+    "color": "#00AEEF",
+    "angle": 108,
+    "scale": 1,
+    "dx": 0,
+    "dy": 0
+   },
+   {
+    "id": "m",
+    "name": "Magenta",
+    "active": true,
+    "color": "#EC008C",
+    "angle": 162,
+    "scale": 1,
+    "dx": 0,
+    "dy": 0
+   },
+   {
+    "id": "y",
+    "name": "Yellow",
+    "active": true,
+    "color": "#FFF200",
+    "angle": 90,
+    "scale": 1,
+    "dx": 0,
+    "dy": 0
+   },
+   {
+    "id": "k",
+    "name": "Key (Black)",
+    "active": true,
+    "color": "#141413",
+    "angle": 45,
+    "scale": 1,
+    "dx": 0,
+    "dy": 0
+   }
+  ]
+ }
+}

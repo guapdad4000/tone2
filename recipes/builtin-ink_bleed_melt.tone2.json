@@ -1,0 +1,81 @@
+{
+ "app": "tone/2",
+ "name": "PS Live Ink Bleed (Dot Melt)",
+ "description": "Blur + Threshold dot bridging on warm vintage newsprint",
+ "kind": "built-in",
+ "settings": {
+  "engineMode": "halftone_rip",
+  "ripSpot": "euclidean",
+  "dotSize": 10,
+  "softness": 1.25,
+  "minRadius": 0.04,
+  "maxRadiusScale": 1.5,
+  "edgeHardness": 0.82,
+  "edgeRoughness": 0.42,
+  "shape": "circle",
+  "jitter": 0.1,
+  "noise": 0.15,
+  "gcr": 0.8,
+  "misregSpread": 1,
+  "inkOpacity": 0.95,
+  "blendMode": "multiply",
+  "paperColor": "#f2e9d8",
+  "underprintOpacity": 0,
+  "tonalMask": 0,
+  "comicOutline": true,
+  "comicInkStyle": "contour",
+  "comicOutlineColor": "#141210",
+  "comicEdgeThreshold": 35,
+  "comicEdgeWeight": 1.5,
+  "comicEdgeOpacity": 0.85,
+  "inkMelt": true,
+  "inkMeltRadius": 1.5,
+  "inkMeltThreshold": 145,
+  "posterize": 0,
+  "sharpen": 0.3,
+  "paperGrain": 0.2,
+  "inkWear": 0.15,
+  "channels": [
+   {
+    "id": "c",
+    "name": "Cyan",
+    "active": true,
+    "color": "#00AEEF",
+    "angle": 108,
+    "scale": 1,
+    "dx": -1,
+    "dy": 0
+   },
+   {
+    "id": "m",
+    "name": "Magenta",
+    "active": true,
+    "color": "#EC008C",
+    "angle": 162,
+    "scale": 1,
+    "dx": 1,
+    "dy": 0
+   },
+   {
+    "id": "y",
+    "name": "Yellow",
+    "active": true,
+    "color": "#FFF200",
+    "angle": 90,
+    "scale": 1,
+    "dx": 0,
+    "dy": 1
+   },
+   {
+    "id": "k",
+    "name": "Key (Black)",
+    "active": true,
+    "color": "#141210",
+    "angle": 45,
+    "scale": 1.05,
+    "dx": 0,
+    "dy": 0
+   }
+  ]
+ }
+}
