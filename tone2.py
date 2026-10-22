@@ -7,7 +7,7 @@ Usage examples:
   # 1. Classic Photoshop Color Halftone (108/162/90/45 rosette) + SVG vector export
   python3 tone2.py input.jpg -o output-halftone.png --svg output-vectors.svg
 
-  # 2. 70s Marvel Pulp Comic (Ben-Day dots + posterize + black comic ink outlines + misregistration)
+  # 2. 70s Pulp Comic (Ben-Day dots + posterize + black comic ink outlines + misregistration)
   python3 tone2.py input.jpg -o comic.png --preset comic_70s
 
   # 3. Custom colors, dot radius, edge bleed & separated C/M/Y/K screen-print film plates
