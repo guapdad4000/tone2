@@ -1,0 +1,21 @@
+{
+ "app": "tone/2",
+ "name": "ATM Receipt",
+ "description": "Thermal black + stamp red on cream",
+ "kind": "example",
+ "settings": {
+  "engineMode": "dither_multiink",
+  "pixelScale": 2,
+  "ditherStrength": 0.95,
+  "sharpen": 0.2,
+  "miPalette": "atm_receipt",
+  "ditherAlgo": "ostro",
+  "miGrain": 0.25,
+  "v2AutoLevels": 1,
+  "v2Clahe": 0.25,
+  "v2ShadowLift": 0,
+  "v2Clarity": 0.2,
+  "v2EdgeSharpen": 0.4,
+  "v2PreserveKey": 1
+ }
+}

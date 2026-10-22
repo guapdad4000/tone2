@@ -1,0 +1,22 @@
+{
+ "app": "tone/2",
+ "name": "Sky Riso",
+ "description": "4-ink multi-ink riso, blue noise, misregistration",
+ "kind": "example",
+ "settings": {
+  "engineMode": "dither_multiink",
+  "pixelScale": 2,
+  "ditherStrength": 0.95,
+  "sharpen": 0.2,
+  "miPalette": "riso_80m_sky",
+  "ditherAlgo": "bluenoise_vc",
+  "miMisreg": 2,
+  "miGrain": 0.35,
+  "v2AutoLevels": 1,
+  "v2Clahe": 0.25,
+  "v2ShadowLift": 0,
+  "v2Clarity": 0.2,
+  "v2EdgeSharpen": 0.4,
+  "v2PreserveKey": 1
+ }
+}

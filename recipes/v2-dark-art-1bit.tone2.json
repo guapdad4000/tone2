@@ -1,0 +1,22 @@
+{
+ "app": "tone/2",
+ "name": "Dark art 1-bit",
+ "description": "Variable-coefficient diffusion + Smart Tone for dark images",
+ "kind": "example",
+ "settings": {
+  "engineMode": "dither_tonal",
+  "tonalCount": 1,
+  "toneShadow": "#111111",
+  "paperColor": "#f2ede0",
+  "pixelScale": 2,
+  "ditherStrength": 1.0,
+  "sharpen": 0.2,
+  "ditherAlgo": "ostro",
+  "diffusionNoise": 0.15,
+  "v2AutoLevels": 1,
+  "v2Clahe": 0.45,
+  "v2ShadowLift": 0.35,
+  "v2Clarity": 0.25,
+  "v2EdgeSharpen": 0.4
+ }
+}

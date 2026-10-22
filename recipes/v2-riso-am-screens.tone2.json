@@ -1,0 +1,29 @@
+{
+ "app": "tone/2",
+ "name": "Riso AM screens",
+ "description": "4 inks, each on its own angle 15/75/0/45",
+ "kind": "example",
+ "settings": {
+  "engineMode": "dither_multiink",
+  "pixelScale": 1,
+  "ditherStrength": 0.95,
+  "sharpen": 0.2,
+  "miPalette": "riso_80m_sky",
+  "miMode": "am",
+  "ditherCell": 6,
+  "miAngles": [
+   15,
+   75,
+   0,
+   45
+  ],
+  "miMisreg": 1.5,
+  "miGrain": 0.2,
+  "v2AutoLevels": 1,
+  "v2Clahe": 0.25,
+  "v2ShadowLift": 0,
+  "v2Clarity": 0.2,
+  "v2EdgeSharpen": 0.4,
+  "v2PreserveKey": 1
+ }
+}
