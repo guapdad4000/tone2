@@ -1,0 +1,79 @@
+{
+ "app": "tone/2",
+ "name": "Frank Miller Graphic Noir",
+ "description": "Heavy solid-black shadow pools + crimson/steel halftone",
+ "kind": "built-in",
+ "settings": {
+  "engineMode": "halftone_rip",
+  "ripSpot": "euclidean",
+  "dotSize": 9,
+  "softness": 1.15,
+  "minRadius": 0.08,
+  "maxRadiusScale": 1.4,
+  "edgeHardness": 0.94,
+  "edgeRoughness": 0.25,
+  "jitter": 0.05,
+  "noise": 0.1,
+  "gcr": 0.9,
+  "misregSpread": 1,
+  "inkOpacity": 0.92,
+  "blendMode": "multiply",
+  "paperColor": "#efe5ce",
+  "underprintOpacity": 0.25,
+  "tonalMask": 0.2,
+  "comicOutline": true,
+  "comicInkStyle": "noir",
+  "comicOutlineColor": "#11100f",
+  "comicEdgeThreshold": 28,
+  "comicBlackCutoff": 48,
+  "comicEdgeWeight": 1.75,
+  "comicEdgeOpacity": 0.96,
+  "inkMelt": false,
+  "posterize": 4,
+  "sharpen": 0.5,
+  "paperGrain": 0.2,
+  "inkWear": 0.15,
+  "channels": [
+   {
+    "id": "c",
+    "name": "Steel Cyan",
+    "active": true,
+    "color": "#1b6ca8",
+    "angle": 15,
+    "scale": 0.85,
+    "dx": -1,
+    "dy": 0
+   },
+   {
+    "id": "m",
+    "name": "Crimson Ink",
+    "active": true,
+    "color": "#d92027",
+    "angle": 75,
+    "scale": 1.1,
+    "dx": 1,
+    "dy": 0
+   },
+   {
+    "id": "y",
+    "name": "Ochre Gold",
+    "active": true,
+    "color": "#ffcd3c",
+    "angle": 0,
+    "scale": 0.9,
+    "dx": 0,
+    "dy": 1
+   },
+   {
+    "id": "k",
+    "name": "India Ink",
+    "active": true,
+    "color": "#11100f",
+    "angle": 45,
+    "scale": 1.15,
+    "dx": 0,
+    "dy": 0
+   }
+  ]
+ }
+}

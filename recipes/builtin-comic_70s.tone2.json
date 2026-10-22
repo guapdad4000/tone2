@@ -1,0 +1,80 @@
+{
+ "app": "tone/2",
+ "name": "1974 Marvel Pulp Comic",
+ "description": "Flat color underprint wash + Ben-Day screen + keyline",
+ "kind": "built-in",
+ "settings": {
+  "engineMode": "halftone_rip",
+  "ripSpot": "euclidean",
+  "dotSize": 8,
+  "softness": 1.1,
+  "minRadius": 0.06,
+  "maxRadiusScale": 1.3,
+  "edgeHardness": 0.88,
+  "edgeRoughness": 0.22,
+  "shape": "circle",
+  "jitter": 0.05,
+  "noise": 0.08,
+  "gcr": 0.85,
+  "misregSpread": 1.5,
+  "inkOpacity": 0.88,
+  "blendMode": "multiply",
+  "paperColor": "#f4ead2",
+  "underprintOpacity": 0.35,
+  "tonalMask": 0.15,
+  "comicOutline": true,
+  "comicInkStyle": "contour",
+  "comicOutlineColor": "#181512",
+  "comicEdgeThreshold": 30,
+  "comicBlackCutoff": 35,
+  "comicEdgeWeight": 1.75,
+  "comicEdgeOpacity": 0.94,
+  "inkMelt": false,
+  "posterize": 5,
+  "sharpen": 0.4,
+  "paperGrain": 0.18,
+  "inkWear": 0.12,
+  "channels": [
+   {
+    "id": "c",
+    "name": "Cyan",
+    "active": true,
+    "color": "#0095D9",
+    "angle": 15,
+    "scale": 1,
+    "dx": -1.5,
+    "dy": 0.5
+   },
+   {
+    "id": "m",
+    "name": "Magenta",
+    "active": true,
+    "color": "#E6007E",
+    "angle": 75,
+    "scale": 1,
+    "dx": 1.5,
+    "dy": -0.5
+   },
+   {
+    "id": "y",
+    "name": "Yellow",
+    "active": true,
+    "color": "#FFED00",
+    "angle": 0,
+    "scale": 1.05,
+    "dx": 0,
+    "dy": 1.5
+   },
+   {
+    "id": "k",
+    "name": "Key (Black)",
+    "active": true,
+    "color": "#181512",
+    "angle": 45,
+    "scale": 1.05,
+    "dx": 0,
+    "dy": 0
+   }
+  ]
+ }
+}
